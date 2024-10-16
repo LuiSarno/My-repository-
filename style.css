@@ -1,0 +1,74 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+button {
+    padding: 12px 30px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#webcam-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    border: 3px solid #2980b9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#label-container {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    text-align: center;
+}
+
+div#label-container div {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin: 5px;
+    background-color: #ecf0f1;
+    width: 250px;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
